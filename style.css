@@ -1,0 +1,194 @@
+* {
+    font-family: "Heebo", "Open Sans", "Playfair Display", serif, sans-serif;
+    margin: 10px;
+    background-color: rgb(29, 53, 87);
+}
+
+h1 {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+input {
+    color: aliceblue;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(209, 52, 64);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(130, 32, 40);
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.top-section {
+    color: aliceblue;
+}
+
+.ajax-section {
+    margin: 70px 0 20px;
+}
+
+.ajax-section .city {
+    position: relative;
+    padding: 20px 10%;
+    margin-top: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 8px 4px rgb(168, 218, 220);
+}
+
+.ajax-section .cities {
+    display: grid;
+    grid-gap: 32px 20px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.ajax-section figcaption {
+    background-color: aliceblue;
+    font-size: 12px;
+    color: gray;
+    margin-top: 8px;
+    letter-spacing: 0.05em;
+}
+
+.ajax-section .city-name {
+    background-color: aliceblue;
+    font-size: 15px;
+}
+
+.ajax-section .city-temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ajax-section var {
+    background-color: aliceblue;
+}
+
+.ajax-section .city-name sup {
+    margin: 2px;
+    padding: 0.1em 0.6em;
+    border-radius: 30px;
+    background: rgb(168, 218, 220);
+}
+
+.ajax-section .city-temp {
+    background-color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.ajax-section .city-temp sup {
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.ajax-section figure {
+    background-color: aliceblue;
+}
+
+.ajax-section .city-icon {
+    background-color: aliceblue;
+    margin-top: 2px;
+    width: 80px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        padding: 30px;
+    }
+    .ajax-section .cities {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .heading,
+    .ajax-section .city-temp {
+        font-size: 3rem;
+    }
+    .ajax-section {
+        margin-top: 20px;
+    }
+    .top-banner form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .top-banner form input,
+    .top-banner form button {
+        width: 100%;
+    }
+    .top-banner form button {
+        margin: 20px 0 0 0;
+    }
+    .top-banner form .msg {
+        position: static;
+        max-width: none;
+        min-height: 0;
+        margin-top: 10px;
+    }
+    .ajax-section .cities {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 15px;
+    }
+    .ajax-section .cities {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    * {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    input {
+        margin-top: 1px;
+        width: 100%;
+        font-size: 10px;
+    }
+    button {
+        margin-top: 1px;
+        width: 100%;
+    }
+    .ajax-section .cities {
+        display: grid;
+        grid-auto-columns: auto;
+        margin-left: 0em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
