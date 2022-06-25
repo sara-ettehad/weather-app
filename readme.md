@@ -1,7 +1,6 @@
 <div align="center">
-    <img src="./images/images__1_-removebg-preview (1).png">
 
-  <h3 align="center">.: To do :.</h3>
+  <h3 align="center">.: Weather app :.</h3>
 
   <p align="center">
     Helps you organize your income and expenses!
