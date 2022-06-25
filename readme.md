@@ -14,7 +14,13 @@
 ---
 ![Weather app](./image/Screenshot%20(742).png)
 
-Weather app is a list of tasks you need to complete or things that you want to do.
+Weather app allows users to see the conditions, temperature, and other related metrics of the device's current location, as well as a number of other cities.
+
+The process incldes:
+
++ Search by weather api
++ City temperature
++ City conditions
   
 What makes this product different is the pleasent experience you'll have, due to its customizable offers, excellent features and UI/UX Design.
 
