@@ -12,7 +12,7 @@
 
 ### About The Project
 ---
-[Weather app](./image/Screenshot%20(742).png)
+![Weather app](./image/Screenshot%20(742).png)
 
 Weather app is a list of tasks you need to complete or things that you want to do.
   
