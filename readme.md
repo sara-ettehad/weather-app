@@ -6,14 +6,14 @@
   <p align="center">
     Helps you organize your income and expenses!
    </p> 
-    <a align="center" href="">View Live
+    <a align="center" href="https://parisa-ettehad.github.io/weather-app/">View Live
     </a>
 </div>
 
 
 ### About The Project
 ---
-[Weather app]()
+[Weather app](./image/Screenshot%20(742).png)
  is a list of tasks you need to complete or things that you want to do.
   
 What makes this product different is the pleasent experience you'll have, due to its customizable offers, excellent features and UI/UX Design.
